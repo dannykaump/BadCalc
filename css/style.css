@@ -1,0 +1,230 @@
+/******************************************
+/* HOT GARBAGE */
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+  font-size: 2.1em;
+  word-spacing: -10px;
+  text-shadow: 3px 2px 4px rgb(61, 61, 61);
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: red;
+  text-shadow: 8px 8px 10px rgba(85, 23, 0, 0.44);
+  padding: 0px 0;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 1.8em;
+
+}
+
+h1 {
+  padding: 20p 50px;
+  font-size: 3.5em;
+  margin: 12px 0;
+  letter-spacing: .05em;
+}
+
+ul{
+  width: 70%;
+  max-width: 300px;
+  height: auto;
+  border: 6px solid rgba(0, 151, 111, 0.816);
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  box-shadow: 8px 8px 10px rgba(85, 23, 0, 0.44);
+}
+
+li{
+  text-align: center;
+  width: 50%;
+  height: 117.5px;
+  border: 1px solid rgba(0, 151, 111, 0.268);
+  padding: 34px 0;
+  border-radius: 1%;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+}
+
+.twoGrid {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+  margin-top: -26px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+ul {
+  margin-top: 25px;
+  display: none;
+  flex-wrap: wrap;
+  color: rgba(255, 68, 0, 0.761);
+  font-size: 1em;
+  border-radius: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+    background:rgba(255, 68, 0, 0.323);
+    background: rgba(0, 0, 0, 0.933);
+}
+
+#pumpkin {
+  width: 100%;
+}
+
+body {
+  font-weight: 700;
+  font-family: 'Shizuru', 'Roboto', sans-serif;
+  color: white;
+  background: black;
+  user-select: none;
+  
+}
+
+li:hover {
+  background: rgba(12, 12, 12, 0.864);
+  cursor: pointer;
+}
+
+li:active {
+  background:rgb(172, 46, 0)
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+}
+
+#darkMode, #lightMode {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.891);
+  padding: 5px;
+  border: 4px solid rgba(0, 151, 111, 0.816);
+  border-radius: 7%;
+  box-shadow: 6px 6px 10px rgba(85, 23, 0, 0.44);;
+  cursor: pointer;
+  font-size: .6em;
+  color: rgba(0, 151, 111, 0.816);
+  user-select: none;
+  position: relative;
+  top: -10px;
+}
+
+#darkMode {
+  display: none;
+}
+
+#lightMode:hover, #darkMode:hover { 
+  background: rgba(12, 12, 12, 0.864);
+  color: rgba(255, 68, 0, 0.761);
+  font-size: .8em;
+}
+
+#lightMode:active, #darkMode:active {
+  font-size: .65em;
+}
+
+.startButton {
+  background: rgb(148, 0, 0);
+  color: white;
+  font-size: 1.6em;
+  box-shadow: 6px 6px 10px rgba(85, 23, 0, 0.666);
+  cursor: pointer;
+  border-radius: .2em;
+  text-align: center;
+  padding: 0 3px;
+  align-self: center;
+}
+
+.top {
+  display: block;
+  width: fit-content;
+  margin: 10px auto;
+  margin-bottom: -15px;
+  font-size: 1.1em;
+  padding: 4px 6px;
+  background: rgb(148, 0, 0);
+  color: white;
+  box-shadow: 6px 6px 10px rgba(85, 23, 0, 0.666);
+  border-radius: .2em;
+  letter-spacing: .05em;
+}
+
+.redText {
+  font-weight: 900;
+}
+
+.target:hover {
+  opacity: 80%;
+  color: rgba(255, 68, 0, 0.761);
+}
+
+.startButton:active {
+  font-size: .8em;
+  width: 30px;
+  height: 20px;
+}
+
+.top:active {
+  font-size: .8em;
+}
+
+#nice {
+  display: none;
+}
+
+.full {
+  width: 100%
+}
+
+.totalCount {
+  margin: 0;
+  justify-self: flex-end;
+  padding-left: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.calc {
+  margin-bottom: 60px;
+}
+
+.result {
+  font-size: .9em;
+}
+
+.center {
+  align-self: center;
+  justify-self: center;
+}
+
